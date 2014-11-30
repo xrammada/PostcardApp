@@ -106,6 +106,14 @@
                                     <rect key="frame" x="257" y="153" width="98" height="83"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bV-4R-K7c">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="153" width="216" height="40"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -115,6 +123,7 @@
                                 <exclude reference="mpy-no-OTY"/>
                                 <exclude reference="0lK-Dg-Fnr"/>
                                 <exclude reference="hAC-db-oTB"/>
+                                <exclude reference="5bV-4R-K7c"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -124,6 +133,7 @@
                                 <include reference="mpy-no-OTY"/>
                                 <include reference="0lK-Dg-Fnr"/>
                                 <include reference="hAC-db-oTB"/>
+                                <include reference="5bV-4R-K7c"/>
                             </mask>
                         </variation>
                     </view>
@@ -134,6 +144,7 @@
                         <outlet property="enterNameTextField" destination="tow-yp-zk8" id="iMJ-4g-Fgd"/>
                         <outlet property="mailButton" destination="mpy-no-OTY" id="w3S-Di-eka"/>
                         <outlet property="messageLabel" destination="0lK-Dg-Fnr" id="40U-BR-Y5I"/>
+                        <outlet property="nameLabel" destination="5bV-4R-K7c" id="QzL-1T-auu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
